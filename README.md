@@ -14,8 +14,6 @@ Sektion 3		Ugens menu, bustider
 
 
 Regler:
-
-
 <br>-Helst id frem for class 
 <br>-IKKE brug px   /   BRUG vw og vh
 <br>-samme styling på de store overskrifter (h2)
