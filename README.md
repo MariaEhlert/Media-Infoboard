@@ -1,15 +1,15 @@
 # Media-Infoborad
 
 Sektion 1		Design, ur, vejr og nyheder
-Patrik, Philip
+<br>Patrik, Philip
 
 
 Sektion 2		Visning af aktiviteter
-Tordis, Maria
+<br>Tordis, Maria
 
 
 Sektion 3		Ugens menu, bustider
-Emilie, Mikkel
+<br>Emilie, Mikkel
 
 
 
