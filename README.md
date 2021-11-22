@@ -22,4 +22,4 @@ Regler:
 <br>-brug JavaScripts så vidt muligt til at lave HTML 
 <br>-ingen inline style i JavaScrip<br>  
 
-PUSH ALDRIG TIL DIRIKE MAIN!!!!!
+# PUSH ALDRIG TIL DIRIKE MAIN!!!!!
