@@ -14,7 +14,7 @@ Emilie, Mikkel
 
 
 Regler:
--Helst id frem for class 
+<br>-Helst id frem for class 
 -IKKE brug px   /   BRUG vw og vh
 -samme styling på de store overskrifter (h2)
 -der skal være kommentar ved hver sektion
