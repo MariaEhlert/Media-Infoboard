@@ -15,11 +15,11 @@ Emilie, Mikkel
 
 Regler:
 <br>-Helst id frem for class 
--IKKE brug px   /   BRUG vw og vh
--samme styling på de store overskrifter (h2)
--der skal være kommentar ved hver sektion
--Kode SKAL kommenteres
- -brug JavaScripts så vidt muligt til at lave HTML 
--ingen inline style i JavaScript  
+<br>-IKKE brug px   /   BRUG vw og vh
+<br>-samme styling på de store overskrifter (h2)
+<br>-der skal være kommentar ved hver sektion
+<br>-Kode SKAL kommenteres
+<br>-brug JavaScripts så vidt muligt til at lave HTML 
+<br>-ingen inline style i JavaScrip<br>  
 
 PUSH ALDRIG TIL DIRIKE MAIN!!!!!
