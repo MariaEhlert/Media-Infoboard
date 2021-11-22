@@ -22,4 +22,4 @@ Regler:
  -brug JavaScripts så vidt muligt til at lave HTML 
 -ingen inline style i JavaScript  
 
-PUSH ALDRIG TIL DIRIKE MAIN!!!!![image](https://user-images.githubusercontent.com/83949695/142862315-807ff8c4-084c-41b5-8645-54115b1add5c.png)
+PUSH ALDRIG TIL DIRIKE MAIN!!!!!
