@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #f5f3f3;
+}
+
+body h2 {
+  font-size: 2vw;
+}
+/*# sourceMappingURL=main.css.map */
