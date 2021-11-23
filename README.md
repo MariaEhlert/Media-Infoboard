@@ -23,3 +23,5 @@ Regler:
 <br>-ingen inline style i JavaScrip<br>  
 
 # PUSH ALDRIG TIL DIRIKE MAIN!!!!!
+
+
