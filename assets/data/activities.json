@@ -1,0 +1,1111 @@
+{
+    "@odata.context": "https://iws.itcn.dk/techcollege/$metadata#Schedules",
+    "value": [
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "Studietid",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "Studietid",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Kl.time",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "gwe080121",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "Webudvikler",
+    "Education": "Data/komm.udd.",
+    "Room": "P024"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "iværk innova",
+    "Education": "Mediegrafiker",
+    "Room": "P016"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "iværk innova",
+    "Education": "Mediegrafiker",
+    "Room": "P016"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "iværk innova",
+    "Education": "Mediegrafiker",
+    "Room": "P016"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "iværk innova",
+    "Education": "Mediegrafiker",
+    "Room": "P016"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "iværk innova",
+    "Education": "Mediegrafiker",
+    "Room": "P016"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "iværk innova",
+    "Education": "Mediegrafiker",
+    "Room": "P016"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "biw110621",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": "P027-4"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "h4mg110121",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "Apr:1525, 1",
+    "Education": "Mediegrafiker",
+    "Room": "P015"
+    },
+    {
+    "Team": "beb110921",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "",
+    "Education": "Brobyg teknisk",
+    "Room": "P113"
+    },
+    {
+    "Team": "beb110921",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "",
+    "Education": "Brobyg teknisk",
+    "Room": "P113"
+    },
+    {
+    "Team": "beb110921",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "",
+    "Education": "Brobyg teknisk",
+    "Room": "P113"
+    },
+    {
+    "Team": "beb110921",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "",
+    "Education": "Brobyg teknisk",
+    "Room": "P113"
+    },
+    {
+    "Team": "beb110921",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "",
+    "Education": "Brobyg teknisk",
+    "Room": "P113"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Studietid",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Studietid",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Studietid",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0mg010121f",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Brobyg teknisk",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-23T07:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-24T07:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-25T07:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr010121f",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "Praktik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "h0gr110221",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "andre trykmetod",
+    "Education": "Grafisk teknik.",
+    "Room": "N112b"
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "matematik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "matematik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "matematik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "Engelsk",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Engelsk",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Engelsk",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Projekt",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Naturfag",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Naturfag",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Naturfag",
+    "Education": "Bager/konditor",
+    "Room": "C121"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "gba080121",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Traditioner",
+    "Education": "Bager/konditor",
+    "Room": "C101"
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "matematik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "matematik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "ggr080121",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "matematik",
+    "Education": "Grafisk teknik.",
+    "Room": ""
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-25T07:15:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-25T08:20:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-25T09:30:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-25T11:00:00+01:00",
+    "Subject": "Kl.time",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-25T12:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-25T13:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-23T12:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-23T13:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-24T07:15:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-24T08:20:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-24T09:30:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-24T11:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-24T12:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-24T13:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-23T07:15:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-23T08:20:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-23T09:30:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    },
+    {
+    "Team": "h1we080121",
+    "StartDate": "2021-11-23T11:00:00+01:00",
+    "Subject": "Praktisk web",
+    "Education": "Webudvikler",
+    "Room": "P025"
+    }
+    ]
+    }
