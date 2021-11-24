@@ -2,6 +2,7 @@
 //kører myfetchfuntion asynkront med option og url i parameter
 
 export const myFetchFunction = async (url, options = null) => {
+    
     let response
     try {
         if(!options) {
@@ -21,6 +22,6 @@ export const myFetchFunction = async (url, options = null) => {
         return result
     }
     catch(err) {
-        // console.error(`Fejl i myFetch: ${err}`)
+         console.error(`Fejl i myFetch: ${err}`)
     }
 }
