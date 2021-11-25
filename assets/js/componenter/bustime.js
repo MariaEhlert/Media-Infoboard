@@ -1,24 +1,40 @@
-import { myFetchFunction } from "/assets/js/componenter/helpers.js"
 
-let bustimewrapper = document.getElementById('bustimewrapper')
-let departures
 
-//fetches data and creates array containing first 5 entries
-async function getData() {
+import { myFetch } from "../helpers.js";
+
+
+export const busFunction = async () => {
+    
+    let busdiv = document.getElementById('bus')
+    let bustimewrapper = document.createElement('div')
+    bustimewrapper.setAttribute('id', 'bustimewrapper')
+    const buscontainer = document.createElement('div')
+    buscontainer.setAttribute('id', 'buscontainer')
+    
+    let busheader = document.createElement('h2')
+    busheader.setAttribute('id', 'busheader')
+    busheader.innerHTML = ''
+    busheader.innerHTML = 'Bustider'
+    
+    let departures    
+    
+    //fetches data and creates array containing first 5 entries
+    async function getData() {
     const busurl = 'https://xmlopen.rejseplanen.dk/bin/rest.exe/multiDepartureBoard?id1=851400602&id2=8519734&format=json'
-    const busdata = await myFetchFunction(busurl)
+    const busdata = await myFetch(busurl)
     departures = busdata.MultiDepartureBoard.Departure.splice(0, 5)
     
-}
+}    
 
 
 //The first time getBustime runs it cant map out departures properties, but after its first fetch it can
-async function getBustime() {
-     bustimewrapper.innerHTML = ''
 
-     getData()
+async function getBustime() {
+    bustimewrapper.innerHTML = ''
     
-     //creates date object from local time properties
+    getData()
+    
+    //creates date object from local time properties
     const date = new Date()
     const hours = date.getHours()
     const minutes = date.getMinutes()
@@ -31,11 +47,10 @@ async function getBustime() {
     const time_format = `${hours}:${minutes}:00`
     
     const today_format = `${year}/${month}/${day}`
-    
-    console.log(date)
+   
     //maps out properties of departures and creates p for each entry
     departures.map(dep => {
-
+        
         let p = document.createElement('p')
         
         
@@ -57,12 +72,14 @@ async function getBustime() {
         //difference becomes outcome of difference between diff_seconds and minutes
         let difference = `${minutes} min`
         
-        console.log(difference)
+        
         p.classList.add('busText')
         //sets p innerHTML to difference in seconds between todayTime and departureTime, departures.line and departures.direction
         p.innerHTML = ` ${difference} ${dep.line} ${dep.direction} `
         bustimewrapper.append(p)
-
+        buscontainer.append(busheader, bustimewrapper)
+        busdiv.append(buscontainer)
+        
     })
 }
 //runs getBustime every 5 seconds
@@ -71,3 +88,5 @@ setInterval(() => {
     getBustime()
 
 }, 5000);
+
+}
