@@ -1,0 +1,32 @@
+{
+    "Week": 47,
+    "Days": [{
+            "DayName": "mandag",
+            "Dish": "Kyllingebryst med bulgur og BBQ sauce"
+        },
+        {
+            "DayName": "tirsdag",
+            "Dish": "Svinefilet med bouillonkartofler og skysauce"
+        },
+        {
+            "DayName": "onsdag",
+            "Dish": "Dagens suppe"
+        },
+        {
+            "DayName": "torsdag",
+            "Dish": "Lasagne med salat"
+        },
+        {
+            "DayName": "fredag",
+            "Dish": "Pølser med brød"
+        }
+    ],
+    "PictureUrl": "https://infoskaerm.techcollege.dk/media/1304/shutterstock_67567321.jpg",
+    "Id": 1256,
+    "Type": "kantineMenu",
+    "Time": 6,
+    "Weather": null,
+    "Schedules": [],
+    "DepartureOffsetTime": 0,
+    "ShowTime": false
+}

@@ -1,5 +1,49 @@
 // MAIN
 * {
+<<<<<<< HEAD
+    //global og universe selector
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    // font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background-color: #f5f3f3;
+    h2 {
+        font-size: 2vw;
+    }
+}
+
+//ACTIVITY DATA
+//BUS
+//DISH
+#dish {
+    h2 {
+        padding-left: 1vw;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+    }
+    #test {
+        text-transform: capitalize;
+    }
+    li {
+        padding: 1vw;
+    }
+    .active {
+        color: #fff;
+    }
+}
+
+//NEWS
+//WATCH
+//WEATHER
+=======
   //global og universe selector
   margin: 0;
   padding: 0;
@@ -63,3 +107,4 @@ display: flex;
 }
 
 //WEATHER
+>>>>>>> main
