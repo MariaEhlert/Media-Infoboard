@@ -4,7 +4,6 @@ export const watchFuntions = async () => {
     //Laver et hook I mit 'html'
     const watchContainer = document.querySelector(`#watch`)
 
-S
     // Function til at calc uge nummer (Den er lidt for hardcore for Patrik)
     Date.prototype.getWeekNumber = function () {
         const date = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
