@@ -1,0 +1,18 @@
+import { myFetch } from "../helpers.js";
+
+const data = await myFetch("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.dr.dk%2Fnyheder%2Fservice%2Ffeeds%2Fallenyheder%23");
+
+const newsContainer = document.querySelector("#news")
+
+console.log(data);
+
+data &&
+      data.items.map((item) => {
+        const p = document.createElement("p");
+        p.innerHTML = `${item.title}`;
+
+        newsContainer.append(p) 
+
+      });
+
+    
