@@ -3,8 +3,6 @@ import { myFetchFunction } from "/assets/js/componenter/helpers.js"
 let bustimewrapper = document.getElementById('bustimewrapper')
 let departures
 
-
-
 //fetches data and creates array containing first 5 entries
 async function getData() {
     const busurl = 'https://xmlopen.rejseplanen.dk/bin/rest.exe/multiDepartureBoard?id1=851400602&id2=8519734&format=json'
@@ -20,7 +18,7 @@ async function getBustime() {
 
      getData()
     
-     //created date object from local time properties
+     //creates date object from local time properties
     const date = new Date()
     const hours = date.getHours()
     const minutes = date.getMinutes()
@@ -66,7 +64,6 @@ async function getBustime() {
         bustimewrapper.append(p)
 
     })
-    
 }
 //runs getBustime every 5 seconds
 setInterval(() => {
