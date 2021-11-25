@@ -8,12 +8,12 @@ export const busFunction = async () => {
     let busdiv = document.getElementById('bus')
     let bustimewrapper = document.createElement('div')
     bustimewrapper.setAttribute('id', 'bustimewrapper')
+    
     const buscontainer = document.createElement('div')
     buscontainer.setAttribute('id', 'buscontainer')
     
     let busheader = document.createElement('h2')
     busheader.setAttribute('id', 'busheader')
-    busheader.innerHTML = ''
     busheader.innerHTML = 'Bustider'
     
     let departures    
