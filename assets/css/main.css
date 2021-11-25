@@ -12,4 +12,28 @@ body {
 body h2 {
   font-size: 2vw;
 }
-/*# sourceMappingURL=main.css.map */
+
+#dish h2 {
+  padding-left: 1vw;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+#dish ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+#dish #test {
+  text-transform: capitalize;
+}
+
+#dish li {
+  padding: 1vw;
+}
+
+#dish .active {
+  color: #fff;
+}
