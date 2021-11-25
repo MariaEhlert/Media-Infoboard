@@ -1,5 +1,6 @@
 // MAIN
 * {
+<<<<<<< HEAD
     //global og universe selector
     margin: 0;
     padding: 0;
@@ -42,3 +43,68 @@ body {
 //NEWS
 //WATCH
 //WEATHER
+=======
+  //global og universe selector
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  // font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+  background-color: #f5f3f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  h2 {
+    font-size: 2vw;
+  }
+}
+
+//ACTIVITY DATA
+
+//BUS
+
+//DISH
+
+//NEWS
+
+#news {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 3.5rem;
+  background-color: rgba(#000, 0.9);
+  box-sizing: content-box;
+  align-items: center ;
+  display: flex;
+
+  marquee {
+    display: inline;
+    white-space: nowrap;
+    color: #fff;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-right: 10vw;
+
+
+    .news_bullet {
+      margin: 0% 5%;
+    }
+  }
+}
+
+//WATCH
+
+#weather{
+display: flex;
+
+  p{
+
+    font-size: 3vw;
+
+  }
+
+}
+
+//WEATHER
+>>>>>>> main
