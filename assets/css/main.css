@@ -5,16 +5,6 @@
   list-style: none;
 }
 
-body {
-  background-color: #f5f3f3;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body h2 {
-  font-size: 2vw;
-}
-
-<<<<<<< HEAD
 #dish h2 {
   padding-left: 1vw;
   text-decoration: underline;
@@ -39,7 +29,16 @@ body h2 {
 #dish .active {
   color: #fff;
 }
-=======
+
+body {
+  background-color: #f5f3f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h2 {
+  font-size: 2vw;
+}
+
 #news {
   position: fixed;
   bottom: 0;
@@ -79,5 +78,3 @@ body h2 {
 #weather p {
   font-size: 3vw;
 }
-/*# sourceMappingURL=main.css.map */
->>>>>>> main
