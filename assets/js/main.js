@@ -1,3 +1,8 @@
+//Impotere vores aktiviteter
+import { getActivityData } from "./componenter/activityData.js";
+//Kalder vores aktivitets function
+getActivityData();
+
 //Impotere vores menu 
 import { dishFunction } from "./componenter/dish.js";
 //Kalder menu funktion 

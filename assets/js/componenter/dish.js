@@ -9,6 +9,11 @@
      //Vælger vores dish div og gør til const 
      const divDish = document.querySelector('#dish');
 
+     //Opretter div om wrapper af listen
+     const wrapper = document.createElement('div');
+     wrapper.setAttribute('id', 'wrapper');
+     wrapper.innerHTML = ''
+
      //Opretter h2 med overskrift
      const dishTitle = document.createElement('h2');
      dishTitle.innerText = 'Ugens menu';
@@ -29,16 +34,16 @@
      //Laver map
      jsonData && jsonData.Days.map((item) => {
 
-         //Opretter ul om wrapper af listen
-         const ul = document.createElement('ul');
-         ul.innerHTML = '';
+
+
 
          //Opretter li
-         const days = document.createElement('li');
-         days.id = ('test')
+         const days = document.createElement('p');
+         //Giver vores data der hedder days en id så vi kan style den seprarert
+         days.id = ('capitalize')
              //Skriver vores data fra api i vores li
          days.innerHTML = `${item.DayName}: `;
-         const dish = document.createElement('li');
+         const dish = document.createElement('p');
          //Skriver vores data fra api i vores li
          dish.innerHTML = ` ${item.Dish}`;
 
@@ -50,10 +55,12 @@
          days.classList.add(className)
          dish.classList.add(className)
 
-
          //Placere li i ul og ul i div
-         ul.append(days, dish);
-         divDish.append(ul);
+
+         wrapper.append(days, dish);
+         divDish.append(wrapper)
+
+
      })
 
 

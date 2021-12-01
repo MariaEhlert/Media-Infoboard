@@ -6,37 +6,83 @@
 }
 
 body {
-  background-color: #f5f3f3;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto 70%;
+      grid-template-columns: auto 70%;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body h2 {
-  font-size: 2vw;
-}
-
-#dish h2 {
-  padding-left: 1vw;
+  font-size: 2.1vw;
   text-decoration: underline;
   text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 0.7vw;
 }
 
-#dish ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
+#activityData {
+  background-color: red;
 }
 
-#dish #test {
+#leftSide {
+  color: #fff;
+}
+
+#leftSide p {
+  font-size: 1.1vw;
+}
+
+#leftSide #watch {
+  padding-top: 1vw;
+  text-align: center;
+}
+
+#leftSide #watch p:last-child {
+  font-size: 3vw;
+}
+
+#leftSide #weather {
+  margin: 0;
+  text-align: center;
+}
+
+#leftSide #dish {
+  text-align: center;
+  margin-top: 2vw;
+}
+
+#leftSide #dish #wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+#leftSide #dish #wrapper p {
+  padding-top: 0.5vw;
+}
+
+#leftSide #dish #capitalize {
   text-transform: capitalize;
 }
 
-#dish li {
-  padding: 1vw;
+#leftSide #dish .active {
+  color: red;
 }
 
-#dish .active {
-  color: #fff;
+#leftSide #bus {
+  margin-top: 2vw;
+  text-align: center;
+}
+
+#leftSide #bus #bustimewrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
 }
 
 #news {
@@ -60,21 +106,11 @@ body h2 {
   display: inline;
   white-space: nowrap;
   color: #fff;
-  font-size: 1.5vw;
+  font-size: 1.2vw;
   text-align: center;
   padding-right: 10vw;
 }
 
 #news marquee .news_bullet {
   margin: 0% 5%;
-}
-
-#weather {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-#weather p {
-  font-size: 3vw;
 }
