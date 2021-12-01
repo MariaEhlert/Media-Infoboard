@@ -54,6 +54,8 @@ export const getActivityData = async () => {
             item.Stamp = Math.round(new Date(item.StartDate).getTime() / 1000);
         })
 
+        //denne sorterer sådan at startdate og education begge tages i betragtning
+        //altså først kl og så uddannelse
         data.sort((a, b) => {
             if (a.StartDate === b.StartDate) {
                 return a.Education < b.Education ? -1 : 1
@@ -61,7 +63,7 @@ export const getActivityData = async () => {
                 return a.StartDate < b.StartDate ? -1 : 1
             }
         })
-
+        //den der sætter activity_data (altså api) i local storage
         localStorage.setItem('activity_data', JSON.stringify(data));
         localStorage.setItem('activity_update', new Date());
     }
@@ -71,8 +73,8 @@ export const getActivityData = async () => {
                         <tr>
                             <th>Kl.</td>
                             <th>Uddannelse</td>
-                            <th>Fag</td>
                             <th>Hold</td>
+                            <th>Fag</td>
                             <th>Lokale</td>
                         </tr>
         `;
@@ -80,7 +82,8 @@ export const getActivityData = async () => {
 
     // Henter dags datos aktiviteter/Timer ind i array arr_subjects
     let arr_subjects = [];
-
+    //henter dagens aktiviteter ind
+    //det er sådan at den ved hvad der hører til dagen i dag af elementer
     arr_subjects.push(...data.filter(elm => (elm.Stamp + 3600) >= cur_stamp && elm.Stamp < nextday_stamp));
 
     // Henter næste dags aktiviteter ind i array arr_nextday_subjects
@@ -116,6 +119,7 @@ export const getActivityData = async () => {
             acc_html += createDayRow(item);
         }
     })
+    //afslutter vores table i html så det hele virker
     acc_html += `</table>`;
     root.innerHTML = acc_html;
 
@@ -124,7 +128,6 @@ export const getActivityData = async () => {
 //Reloader hvert 5 sekund
 setInterval(() => {
     getActivityData();
-    // console.log(1234);
 }, (5000))
 
 
@@ -132,55 +135,30 @@ setInterval(() => {
 //i case skal der stå navnet på educations
 //i dotColor skal der stå det navn som class'en skal have
 function addDotClass(color) {
-
     let dotColor;
-
     switch (color) {
-
         default:
-
             dotColor = color;
-
             break;
-
         case 'AMU indmeld':
-
             dotColor = 'amu';
-
             break;
-
         case 'Brobyg teknisk':
-
             dotColor = 'brobyg';
-
             break;
-
         case 'Data/komm.udd.':
-
         case 'Webudvikler':
-
             dotColor = 'web';
-
             break;
-
         case 'Grafisk Tekniker':
-
         case 'Grafisk teknik.':
-
             dotColor = 'grafTek';
-
             break;
-
         case 'Mediegrafiker':
-
             dotColor = 'medieGraf';
-
             break;
-
     }
-
     return dotColor;
-
 }
 
 //Sætter item infomation ind under oversktifterne 
@@ -191,8 +169,8 @@ function createRow(item) {
     return `<tr>
         <td>${item.Time}</td>
         <td> <span class="dot ${addDotClass(item.Education)}"></span> ${item.Education}</td>
-        <td>${item.Subject}</td>
         <td>${item.Team}</td>
+        <td class="capitalize">${item.Subject}</td>
         <td>${item.Room}</td>
         </tr>`
 }
@@ -200,7 +178,7 @@ function createRow(item) {
 //Sætter en overskrift med den næste dag (fx tirsdag d. 30 november) 
 //når der ikke er flere aktiviterter på pågældene dag
 function createDayRow(item) {
-    return `<tr>
+    return `<tr id="nextDay">
               <td colspan="5">${item.day}</td>
             </tr>`;
 }
