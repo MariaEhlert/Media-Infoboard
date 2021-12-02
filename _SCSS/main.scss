@@ -1,65 +1,189 @@
-// MAIN
-* {
-  //global og universe selector
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  // font-family: 'Source Sans Pro', sans-serif;
-}
-body {
-  background-color: #f5f3f3;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  h2 {
-    font-size: 2vw;
-  }
-}
-
-//ACTIVITY DATA
-
-//BUS
-
-//DISH
-
-//NEWS
-
-#news {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  overflow: hidden;
-  height: 3.5rem;
-  background-color: rgba(#000, 0.9);
-  box-sizing: content-box;
-  align-items: center ;
-  display: flex;
-
-  marquee {
-    display: inline;
-    white-space: nowrap;
-    color: #fff;
-    font-size: 1.5vw;
-    text-align: center;
-    padding-right: 10vw;
-
-
-    .news_bullet {
-      margin: 0% 5%;
+    // MAIN
+    * {
+        //global og universal selector
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-  }
+    
+    body {
+        height: 100%;
+        display: grid;
+        grid-template-columns: auto 70%;
+        gap: 1vw;
+        h2 {
+            font-size: 2.1vw;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 0.7vw;
+        }
+    }
+    
+    //Left-side med tid,bus,menu
+    #leftSide {
+        color: #fff;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        p {
+            font-size: 1.1vw;
+        }
+        //WATCH
+        #watch {
+            padding-top: 1vw;
+            text-align: center;
+            p:last-child {
+                font-size: 3vw;
+            }
+        }
+        //Weather
+        #weather {
+            margin: 0;
+            text-align: center;
+        }
+        &.default {
+            background-image: url("../images/content/weather/default.jpg");
+        }
+        &.clouds{
+            background-image: url("../images/content/weather/clouds.jpg");
+        }
+        &.clear{
+            background-image: url("../images/content/weather/clear.jpg");
+        }
+        &.drizzle{
+            background-image: url("../images/content/weather/drizzle.jpg");
+        }
+        &.foggy {
+            background-image: url("../images/content/weather/foggy.jpg");
+        }
+        &.light-rain{
+            background-image: url("../images/content/weather/light-rain.jpg");
+        }
+        &.mist{
+            background-image: url("../images/content/weather/mist.jpg");
+        }
+        &.partly-cloudy{
+            background-image: url("../images/content/weather/partly-cloudy.jpg");
+        }
+        &.rain{
+            background-image: url("../images/content/weather/rain.jpg");
+        }
+        &.snow{
+            background-image: url("../images/content/weather/snow.jpg");
+        }
+        &.sunny{
+            background-image: url("../images/content/weather/sunny.jpg");
+        }
+        &.thunderstorm{
+            background-image: url("../images/content/weather/thunderstorm.jpg");
+        }
+        &.windy{
+            background-image: url("../images/content/weather/windy.jpg");
+        }
+        //DISH
+        #dish {
+            text-align: center;
+            margin-top: 2vw;
+            #wrapper {
+                display: grid;
+                grid-template-columns: 50% 50%;
+                p {
+                    padding-top: 0.5vw;
+                }
+            }
+            #capitalize {
+                text-transform: capitalize;
+            }
+            .active {
+                color: rgb(255, 0, 0);
+            }
+        }
+        #bus {
+            margin-top: 2vw;
+            text-align: center;
+            #bustimewrapper {
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+        }
+    }
+    
+//ACTIVITY DATA
+#activityData {
+    width: 100%;
+    font-size: 1.7vw;
+    table{
+        border-collapse: collapse; //det her gør at der ikke er hul imellem linjerne
+        tbody{
+            tr{
+                border-bottom: 1px solid black;
+                #nextDay{
+                    font-size: 2vw;
+                    font-weight: bold;
+                }
+                th{ //vi er nødt til at sætte på både th og td for at få padding på hver linje
+                    padding-bottom: .41vw;
+                    text-align: left;
+                }
+                td{//vi er nødt til at sætte på både th og td for at få padding på hver linje
+                    padding-bottom: .41vw;
+                    padding-right: 4.5vw;
+                }
+                .capitalize{
+                    text-transform: capitalize; //vi har givet alle fag en class
+                    //derfor kan vi sørge for at de alle starter med stort bogstav
+                }
+        }
+    }
+    .dot { //den der laver cirklerne
+        height: 10px; //det er nødt til at være i px
+        width: 10px; //det er nødt til at være i px
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: .3vw; //det her centrerer dem
+    } 
+    .brobyg{
+        background-color: #aff0af;
+    }
+    .amu{
+        background-color: #ffcc99;
+    }
+    .web{
+        background-color: #cc99ff;
+    }
+    .grafTek{ 
+        background-color: #66ccff;
+    }
+    .medieGraf{
+        background-color: #ffc0cb;
+    }
+}
 }
 
-//WATCH
-
-#weather{
-display: flex;
-
-  p{
-
-    font-size: 3vw;
-
-  }
-
-}
-
-//WEATHER
+    //NEWS
+    #news {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        height: 3.5rem;
+        background-color: rgba(#000, 0.9);
+        box-sizing: content-box;
+        align-items: center;
+        display: flex;
+        marquee {
+            display: inline;
+            white-space: nowrap;
+            color: #fff;
+            font-size: 1.2vw;
+            text-align: center;
+            padding-right: 10vw;
+            .news_bullet {
+                margin: 0% 5%;
+            }
+        }
+    }
