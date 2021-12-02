@@ -11,19 +11,21 @@
     body {
         height: 100%;
         display: grid;
-        grid-template-columns: auto 70%;
-        gap: 1vw;
+        grid-template-columns: auto 75%;
         h2 {
-            font-size: 2.1vw;
+            font-size: 1.5vw;
+            font-weight: 300;
             text-decoration: underline;
             text-transform: uppercase;
             text-align: center;
-            padding-bottom: 0.7vw;
+            padding-bottom: 0.5vw;
         }
     }
     
     //Left-side med tid,bus,menu
     #leftSide {
+        background-color: #000;
+        height: 100vh;
         color: #fff;
         background-repeat: no-repeat;
         background-size: cover;
@@ -52,7 +54,7 @@
             background-image: url("../images/content/weather/clouds.jpg");
         }
         &.clear{
-            background-image: url("../images/content/weather/clear.jpg");
+            // background-image: url("../images/content/weather/clear.jpg");
         }
         &.drizzle{
             background-image: url("../images/content/weather/drizzle.jpg");
@@ -89,21 +91,31 @@
             text-align: center;
             margin-top: 2vw;
             #wrapper {
+                
                 display: grid;
-                grid-template-columns: 50% 50%;
+                justify-content: center;
+                grid-template-columns: auto auto;
+                gap: 0.5vw;
+                column-gap:2vw;
+                padding: 0 3vw;
                 p {
+                    text-align: left;
                     padding-top: 0.5vw;
                 }
             }
             #capitalize {
                 text-transform: capitalize;
             }
+            .normal{
+                font-weight: 300;
+                opacity: 80%;
+            }
             .active {
-                color: rgb(255, 0, 0);
+                font-weight: bold;
             }
         }
         #bus {
-            margin-top: 2vw;
+            margin-top: 5vw;
             text-align: center;
             #bustimewrapper {
                 display: grid;
@@ -114,8 +126,8 @@
     
 //ACTIVITY DATA
 #activityData {
-    width: 100%;
     font-size: 1.7vw;
+    padding: 0 2vw;
     table{
         border-collapse: collapse; //det her gør at der ikke er hul imellem linjerne
         tbody{
@@ -128,6 +140,7 @@
                 th{ //vi er nødt til at sætte på både th og td for at få padding på hver linje
                     padding-bottom: .41vw;
                     text-align: left;
+                    text-transform: uppercase;
                 }
                 td{//vi er nødt til at sætte på både th og td for at få padding på hver linje
                     padding-bottom: .41vw;

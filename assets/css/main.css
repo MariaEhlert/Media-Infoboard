@@ -10,20 +10,22 @@ body {
   height: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto 70%;
-      grid-template-columns: auto 70%;
-  gap: 1vw;
+  -ms-grid-columns: auto 75%;
+      grid-template-columns: auto 75%;
 }
 
 body h2 {
-  font-size: 2.1vw;
+  font-size: 1.5vw;
+  font-weight: 300;
   text-decoration: underline;
   text-transform: uppercase;
   text-align: center;
-  padding-bottom: 0.7vw;
+  padding-bottom: 0.5vw;
 }
 
 #leftSide {
+  background-color: #000;
+  height: 100vh;
   color: #fff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -54,10 +56,6 @@ body h2 {
 
 #leftSide.clouds {
   background-image: url("../images/content/weather/clouds.jpg");
-}
-
-#leftSide.clear {
-  background-image: url("../images/content/weather/clear.jpg");
 }
 
 #leftSide.drizzle {
@@ -108,11 +106,19 @@ body h2 {
 #leftSide #dish #wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  gap: 0.5vw;
+  -webkit-column-gap: 2vw;
+          column-gap: 2vw;
+  padding: 0 3vw;
 }
 
 #leftSide #dish #wrapper p {
+  text-align: left;
   padding-top: 0.5vw;
 }
 
@@ -120,12 +126,17 @@ body h2 {
   text-transform: capitalize;
 }
 
+#leftSide #dish .normal {
+  font-weight: 300;
+  opacity: 80%;
+}
+
 #leftSide #dish .active {
-  color: red;
+  font-weight: bold;
 }
 
 #leftSide #bus {
-  margin-top: 2vw;
+  margin-top: 5vw;
   text-align: center;
 }
 
@@ -137,8 +148,8 @@ body h2 {
 }
 
 #activityData {
-  width: 100%;
   font-size: 1.7vw;
+  padding: 0 2vw;
 }
 
 #activityData table {
@@ -157,6 +168,7 @@ body h2 {
 #activityData table tbody tr th {
   padding-bottom: .41vw;
   text-align: left;
+  text-transform: uppercase;
 }
 
 #activityData table tbody tr td {
@@ -225,4 +237,3 @@ body h2 {
 #news marquee .news_bullet {
   margin: 0% 5%;
 }
-/*# sourceMappingURL=main.css.map */
