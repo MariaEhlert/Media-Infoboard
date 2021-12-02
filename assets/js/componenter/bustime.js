@@ -45,37 +45,6 @@ export const busFunction = async() => {
 
         const today_format = `${year}/${month}/${day}`
 
-        
-
-        //maps out properties of departures and creates p for each entry
-        departures.map(dep => {
-            
-            let numberP = document.createElement('p')
-            let timeP = document.createElement('p')
-            let nameP = document.createElement('p')
-            
-            const todayTime = new Date(`${today_format} ${time_format}`)
-            
-            const departureTime = new Date(`${today_format} ${dep.time}:00`)
-            
-            //calculates difference in seconds between departureTime and todayTime
-            let diff_seconds = Math.abs(Math.round(departureTime) - todayTime) / 1000
-            
-            //grabs hours from todayTime and divides it with diff_seconds, within the range of 24
-            const hours = Math.floor(diff_seconds / 3600) % 24
-            
-            diff_seconds -= hours * 3600
-            
-            //grabs minutes from todayTime and divides it with diff_seconds, within the range of 60
-            const minutes = Math.floor(diff_seconds / 60) % 60
-            
-            //difference becomes outcome of difference between diff_seconds with hours and minutes
-            let difference = `${hours} time og ${minutes} minutter`
-            console.log(difference)
-            //changes difference to only display minutes if hour is 0
-            if(hours === 0){
-                difference = `${minutes} minutter`
-            }
 
         //maps out properties of departures and creates p for each entry
         departures.map(dep => {
@@ -101,7 +70,13 @@ export const busFunction = async() => {
             const minutes = Math.floor(diff_seconds / 60) % 60
 
             //difference becomes outcome of difference between diff_seconds and minutes
-            let difference = `${minutes} min`
+            let difference = `${hours} time og ${minutes} minutter`
+            console.log(difference)
+            //changes difference to only display minutes if hour is 0
+            if(hours === 0){
+                difference = `${minutes} minutter`
+            }
+
 
 
             //sets p innerHTML to difference in seconds between todayTime and departureTime, departures.line and departures.direction
