@@ -72,12 +72,12 @@ export const busFunction = async() => {
             //difference becomes outcome of difference between diff_seconds and minutes
             let difference = `${hours} time og ${minutes} minutter`
             console.log(difference)
-            //changes difference to only display minutes if hour is 0
+            //changes difference to only display minutes if hour is 0 and minut if minutes is 1
             if(hours === 0){
                 difference = `${minutes} minutter`
+            } else if (minutes === 1) {
+                difference = `${minutes} minut`
             }
-
-
 
             //sets p innerHTML to difference in seconds between todayTime and departureTime, departures.line and departures.direction
             numberP.innerHTML = `  ${dep.line}  `
@@ -92,9 +92,6 @@ export const busFunction = async() => {
     }
     //runs getBustime every 5 seconds
     setInterval(() => {
-
         getBustime()
-
-    }, 5000);
-
+    }, 5000)
 }
