@@ -19,7 +19,7 @@ export const weatherFunction = async () => {
 
   //Her "hooker" vi så der e plads til graderne
   const weatherContainer = document.querySelector("#weather");
-  // Laver en const, som laver et span_title i mit DOM
+  // Laver en const, som laver et p i mit DOM
   const p = document.createElement("p");
 
 
