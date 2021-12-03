@@ -57,7 +57,7 @@ export const watchFuntions = async () => {
 
         watchP.innerText = format
 
-        // Her setter man ens 'time-delay' i 'nano-seconds'
+        // Her setter man ens 'time-delay' i 'miliseconds'
     }, 1000)
 
     //Setter alle mine 'P' (Paragraths in i mit hook)
