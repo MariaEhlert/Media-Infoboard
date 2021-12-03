@@ -76,7 +76,10 @@ export const busFunction = async() => {
             //changes difference to only display minutes if hour is 0
             if(hours === 0){
                 difference = `${minutes} min`
+            } else if (hours > 1) {
+                difference = `${hours} timer og ${minutes} min`
             }
+
 
             //sets p innerHTML to difference in seconds between todayTime and departureTime, departures.line and departures.direction
             numberP.innerHTML = `  ${dep.line}  `
