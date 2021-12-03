@@ -34,8 +34,9 @@ body {
     background-size: cover;
     background-position: center;
 
+    //Den global P
     p {
-        font-size: 1vw;
+        font-size: 1.2vw;
     }
     //WATCH
     #watch {
@@ -93,8 +94,8 @@ body {
         background-image: url("../images/content/weather/light-rainV2.jpg");
         h2,
         p {
-            color: rgb(0, 0, 0);
-            text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+            color: #ffffff;
+            text-shadow: 1px 1px 1px rgb(0, 0, 0);
         }
     }
     &.foggy {
@@ -109,8 +110,8 @@ body {
         background-image: url("../images/content/weather/light-rainV2.jpg");
         h2,
         p {
-            color: rgb(0, 0, 0);
-            text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+            color: rgb(254, 255, 190);
+            text-shadow: 1px 1px 1px rgb(0, 0, 0);
         }
     }
     &.mist {
@@ -141,8 +142,8 @@ body {
         background-image: url("../images/content/weather/snowV2.jpg");
         h2,
         p {
-            color: black;
-            text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.45);
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.45);
         }
     }
     &.sunny {
@@ -173,13 +174,13 @@ body {
     //DISH
     #dish {
         text-align: center;
-        margin-top: 6vh;
+        margin-top: 3vh;
         #wrapper {
             display: grid;
             justify-content: center;
             grid-template-columns: auto auto;
             gap: 0.5vw;
-            column-gap: 2vw;
+            column-gap: 2.5vw;
             padding: 0 2vw;
             p {
                 text-align: left;
@@ -190,7 +191,8 @@ body {
             text-transform: capitalize;
         }
         .normal {
-            font-weight: 300;
+            font-weight: 400;
+            line-height: 1.2;
             opacity: 80%;
         }
         .active {
@@ -205,11 +207,11 @@ body {
             justify-content: center;
             grid-template-columns: auto auto auto;
             gap: 0.5vw;
-            column-gap: 1vw;
-            padding: 0 2vw;
+            column-gap: 1.1vw;
+            padding-left: 1.5vw;
             p {
-                padding-top: 0.5vw;
-                font-size: 1vw;
+                padding-top: 0.3vw;
+                font-size: 1.2vw;
                 font-weight: 500;
                 text-align: left;
             }
@@ -225,12 +227,16 @@ body {
         border-collapse: collapse; //det her gør at der ikke er hul imellem linjerne
         tbody {
             height: 95vh;
+            color: rgba(0, 0, 0, 0.575);
             tr {
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.171);
 
-                // th:last-child {
-                //     color: red;
-                // }
+                th:nth-child(2) {
+                    padding-right: 6.4vw;
+                }
+                td:last-child {
+                    padding-right: 0vw;
+                }
 
                 #nextDay {
                     font-size: 2vw;
@@ -245,6 +251,7 @@ body {
                     text-align: left;
                     text-transform: uppercase;
                     font-size: 2.2vw;
+                    color: rgba(0, 0, 0, 0.637);
                 }
                 td {
                     // indhold
@@ -291,7 +298,7 @@ body {
     overflow: hidden;
     display: flex;
     padding: 5px 0px;
-    height: 2vh;
+    height: 3.5vh;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.465);
     color: #fff;
@@ -306,7 +313,7 @@ body {
     }
     span {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1vw;
+        font-size: 1.8vw;
         line-height: 5;
         &:nth-child(odd) {
             margin: 0% 1%;
@@ -331,7 +338,7 @@ body {
     @return $random_range;
 }
 
-.snow {
+.Snow {
     box-shadow: 0 0 10px white;
     $total: 200;
     position: absolute;
