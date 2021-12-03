@@ -208,6 +208,7 @@ body {
             column-gap: 1vw;
             padding: 0 2vw;
             p {
+                padding-top: 0.5vw;
                 font-size: 1vw;
                 font-weight: 500;
                 text-align: left;
@@ -223,22 +224,34 @@ body {
     table {
         border-collapse: collapse; //det her gør at der ikke er hul imellem linjerne
         tbody {
+            height: 95vh;
             tr {
                 border-bottom: 1px solid black;
+
+                // th:last-child {
+                //     color: red;
+                // }
+
                 #nextDay {
                     font-size: 2vw;
                     font-weight: bold;
                 }
                 th {
+                    // overskrifter
                     //vi er nødt til at sætte på både th og td for at få padding på hver linje
                     padding-bottom: 0.41vw;
+                    padding-top: 2vw;
+                    height: 5vh;
                     text-align: left;
                     text-transform: uppercase;
+                    font-size: 2.2vw;
                 }
                 td {
+                    // indhold
                     //vi er nødt til at sætte på både th og td for at få padding på hver linje
-                    padding-bottom: 0.41vw;
+                    padding-bottom: 0.35vw;
                     padding-right: 4.5vw;
+                    height: 3vh;
                 }
                 .capitalize {
                     text-transform: capitalize; //vi har givet alle fag en class
@@ -248,11 +261,13 @@ body {
         }
         .dot {
             //den der laver cirklerne
-            height: 10px; //det er nødt til at være i px
-            width: 10px; //det er nødt til at være i px
+            height: 0.8vw; //det er nødt til at være i px
+            width: 0.8vw; //det er nødt til at være i px
             border-radius: 50%;
             display: inline-block;
-            margin-bottom: 0.3vw; //det her centrerer dem
+            // margin-bottom: 0.3vw; //det her centrerer dem
+            position: relative;
+            top: -0.2vh;
         }
         .brobyg {
             background-color: #aff0af;

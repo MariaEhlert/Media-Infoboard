@@ -18,8 +18,8 @@ export const getActivityData = async () => {
     let seconds_to_update = Math.round((curdate.getTime() - update.getTime()) / 1000);
 
     if (data || seconds_to_update > config.max_seconds_to_last_update) {
-        // const url = 'https://iws.itcn.dk/techcollege/Schedules?departmentCode=smed';
-        const url = '../api.json'
+        const url = 'https://iws.itcn.dk/techcollege/Schedules?departmentCode=smed';
+        // const url = '../api.json'
         const result = await myFetch(url);
         data = result.value;
 
@@ -128,7 +128,7 @@ export const getActivityData = async () => {
 //Reloader hvert 5 sekund
 setInterval(() => {
     getActivityData();
-}, (5000))
+}, (500000))
 
 
 //denne funktion gør at der kommer en class på hver education
