@@ -9,7 +9,7 @@
      //Vælger vores dish div og gør til const 
      const divDish = document.querySelector('#dish');
 
-     //Opretter div om wrapper af listen
+     //Opretter div som wrapper
      const wrapper = document.createElement('div');
      wrapper.setAttribute('id', 'wrapper');
      wrapper.innerHTML = ''
@@ -33,24 +33,20 @@
 
      //Laver map
      jsonData && jsonData.Days.map((item) => {
-
-
-
-
-         //Opretter li
+         //Opretter p + tilføjer days id så vi kan style den seprarert
          const days = document.createElement('p');
-         //Giver vores data der hedder days en id så vi kan style den seprarert
          days.id = ('capitalize')
-             //Skriver vores data fra api i vores li
+             //Skriver vores data fra api i vores p
          days.innerHTML = `${item.DayName}: `;
+         
+         //Nyt p til menuen
          const dish = document.createElement('p');
-         //Skriver vores data fra api i vores li
          dish.innerHTML = ` ${item.Dish}`;
 
 
 
          //Conditional (ternary) operator
-         //Hvis dayName er identisk med arrday skal den have class active ellers være normal li
+         //Hvis dayName er identisk med arrday skal den have class active ellers være normal p
          const className = (item.DayName === arrDays[day].toLowerCase()) ? 'active' : 'normal'
          days.classList.add(className)
          dish.classList.add(className)
