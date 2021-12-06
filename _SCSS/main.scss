@@ -1,10 +1,6 @@
 // MAIN
 * {
-<<<<<<< HEAD
-    //global og universe selector
-=======
     //global og universal selector
->>>>>>> 1b195d2e7ff3481d25b47e2da06f8c6b1ad7dbe0
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -12,19 +8,11 @@
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-<<<<<<< HEAD
-//ACTIVITY DATA
-//BUS
-//DISH
-#dish {
-    h2 {
-        padding-left: 1vw;
-        text-decoration: underline;
-        text-transform: uppercase;
-=======
 body {
-    overflow-y: hidden; /* Hide vertical scrollbar */
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
     display: grid;
     grid-template-columns: auto 75%;
     h2 {
@@ -47,7 +35,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
     //Den global P
     p {
         font-size: 1.2vw;
@@ -68,13 +55,11 @@ body {
             font-size: 5vw;
             line-height: 1;
         }
->>>>>>> 1b195d2e7ff3481d25b47e2da06f8c6b1ad7dbe0
     }
     //Weather
     #weather {
         margin: 0;
         text-align: center;
-
         p {
             font-weight: bold;
             font-size: 1.5vw;
@@ -185,14 +170,6 @@ body {
             text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
         }
     }
-
-<<<<<<< HEAD
-body {
-    background-color: #f5f3f3;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    h2 {
-        font-size: 2vw;
-=======
     //DISH
     #dish {
         text-align: center;
@@ -238,48 +215,10 @@ body {
                 text-align: left;
             }
         }
->>>>>>> 1b195d2e7ff3481d25b47e2da06f8c6b1ad7dbe0
     }
 }
 
 //ACTIVITY DATA
-<<<<<<< HEAD
-//BUS
-//DISH
-//NEWS
-#news {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
-    height: 3.5rem;
-    background-color: rgba(#000, 0.9);
-    box-sizing: content-box;
-    align-items: center;
-    display: flex;
-    marquee {
-        display: inline;
-        white-space: nowrap;
-        color: #fff;
-        font-size: 1.5vw;
-        text-align: center;
-        padding-right: 10vw;
-        .news_bullet {
-            margin: 0% 5%;
-        }
-    }
-}
-
-//WATCH
-#weather {
-    display: flex;
-    p {
-        font-size: 3vw;
-    }
-}
-
-//WEATHER
-=======
 #activityData {
     font-size: 1.7vw;
     padding: 0 2vw;
@@ -290,14 +229,12 @@ body {
             color: rgba(0, 0, 0, 0.575);
             tr {
                 border-bottom: 1px solid rgba(0, 0, 0, 0.171);
-
                 th:nth-child(2) {
                     padding-right: 6.4vw;
                 }
                 td:last-child {
                     padding-right: 0vw;
                 }
-
                 #nextDay {
                     font-size: 2vw;
                     font-weight: bold;
@@ -365,7 +302,6 @@ body {
     align-items: center;
     position: fixed;
     bottom: 0;
-
     div {
         animation: marquee 120s linear infinite;
         width: 100%;
@@ -392,7 +328,8 @@ body {
 
 // Her starter alt det her sne kaos
 // https://codepen.io/alphardex/pen/dyPorwJ
-@function random_range($min, $max) {
+@function random_range($min,
+$max) {
     $rand: random();
     $random_range: $min + floor($rand * (($max - $min) + 1));
     @return $random_range;
@@ -406,7 +343,6 @@ body {
     height: 1vw;
     background: white;
     border-radius: 50%;
-
     @for $i from 1 through $total {
         $random-x: random(1000000) * 0.0001vw;
         $random-offset: random_range(-100000, 100000) * 0.0001vw;
@@ -417,22 +353,18 @@ body {
         $random-scale: random(10000) * 0.0001;
         $fall-duration: random_range(10, 30) * 1s;
         $fall-delay: random(30) * -1s;
-
         &:nth-child(#{$i}) {
             opacity: random(10000) * 0.0001;
             transform: translate($random-x, -10px) scale($random-scale);
             animation: fall-#{$i} $fall-duration $fall-delay linear infinite;
         }
-
         @keyframes fall-#{$i} {
             #{percentage($random-yoyo-time)} {
                 transform: translate($random-x-end, $random-yoyo-y) scale($random-scale);
             }
-
             to {
                 transform: translate($random-x-end-yoyo, 100vh) scale($random-scale);
             }
         }
     }
 }
->>>>>>> 1b195d2e7ff3481d25b47e2da06f8c6b1ad7dbe0
