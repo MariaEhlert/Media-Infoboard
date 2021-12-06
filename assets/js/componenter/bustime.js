@@ -21,7 +21,6 @@ export const busFunction = async() => {
         const busurl = 'https://xmlopen.rejseplanen.dk/bin/rest.exe/multiDepartureBoard?id1=851400602&id2=8519734&format=json'
         const busdata = await myFetch(busurl)
         departures = busdata.MultiDepartureBoard.Departure.splice(0, 5)
-
     }
 
 
@@ -45,6 +44,7 @@ export const busFunction = async() => {
         const time_format = `${hours}:${minutes}:00`
 
         const today_format = `${year}/${month}/${day}`
+
 
         //maps out properties of departures and creates p for each entry
         departures.map(dep => {
@@ -70,10 +70,16 @@ export const busFunction = async() => {
             const minutes = Math.floor(diff_seconds / 60) % 60
 
             //difference becomes outcome of difference between diff_seconds and minutes
-            let difference = `${minutes} min`
+
+            let difference = `${hours} t & ${minutes} min`
+            //changes difference to only display minutes if hour is 0
+            if(hours === 0){
+                difference = `${minutes} min`
+            } else if (hours > 1) {
+                difference = `${hours} t & ${minutes} min`
+            }
 
 
-            // p.classList.add('busText')
             //sets p innerHTML to difference in seconds between todayTime and departureTime, departures.line and departures.direction
             numberP.innerHTML = `  ${dep.line}  `
             timeP.innerHTML = `   ${difference} `
@@ -87,9 +93,6 @@ export const busFunction = async() => {
     }
     //runs getBustime every 5 seconds
     setInterval(() => {
-
         getBustime()
-
-    }, 5000);
-
+    }, 5000)
 }
