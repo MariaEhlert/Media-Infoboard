@@ -228,6 +228,7 @@ body {
         tbody {
             height: 95vh;
             color: rgba(0, 0, 0, 0.575);
+
             tr {
                 border-bottom: 1px solid rgba(0, 0, 0, 0.25);
                 th:nth-child(1) {
@@ -267,10 +268,16 @@ body {
                     padding-bottom: 0.35vw;
                     padding-right: 4.5vw;
                     height: 4.8vh;
+                    // td:last-child{   
+                    //     border-bottom: 0;
+                    // } 
                 }
                 .capitalize {
                     text-transform: capitalize; //vi har givet alle fag en class
                     //derfor kan vi sørge for at de alle starter med stort bogstav
+                }
+                &:last-child{
+                    border-bottom: 0;
                 }
             }
         }
@@ -308,7 +315,7 @@ body {
     padding: 5px 0px;
     height: 3vh;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.465);
+    background-color: rgba(0, 0, 0, 0.603);
     color: #fff;
     align-items: center;
     position: fixed;
@@ -320,7 +327,7 @@ body {
     }
     span {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 1.3vw;
+        font-size: 1.2vw;
         line-height: 5;
         &:nth-child(odd) {
             margin: 0% 1%;

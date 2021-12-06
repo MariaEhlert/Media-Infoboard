@@ -48,6 +48,8 @@ export const dishFunction = async() => {
         days.classList.add(className)
         dish.classList.add(className)
 
+        divDish.innerHTML = ''
+
         //Placere li i ul og ul i div
         wrapper.append(days, dish);
         divDish.append(wrapper)
@@ -55,6 +57,7 @@ export const dishFunction = async() => {
     })
     //Reloade hver time
     setInterval(() => {
+    
         dishFunction();
     }, (3600000))
 }
