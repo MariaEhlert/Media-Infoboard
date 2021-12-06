@@ -71,6 +71,23 @@ export const weatherFunction = async () => {
   weatherContainer.append(p);
 
 
+
+
+
+
+
+
+  for (let i = 0; i < 200; i++) {
+      // Laver en const, som laver et p i mit DOM
+  const snowFlake = document.createElement("div");
+
+  snowFlake.className=('snowFlake')
+  const leftSide=document.querySelector("#leftSide")
+  leftSide.prepend(snowFlake);
+  }
+
+
+
 }
 
 // Her afspiller vi "weatherFunction()" efter 2 timer i en loop
