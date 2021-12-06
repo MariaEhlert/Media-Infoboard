@@ -19,7 +19,6 @@ export const getActivityData = async () => {
 
     if (data || seconds_to_update > config.max_seconds_to_last_update) {
         const url = 'https://iws.itcn.dk/techcollege/Schedules?departmentCode=smed';
-        // const url = '../api.json'
         const result = await myFetch(url);
         data = result.value;
 
@@ -128,7 +127,7 @@ export const getActivityData = async () => {
 //Reloader hvert 5 sekund
 setInterval(() => {
     getActivityData();
-}, (5000))
+}, (5000000000))
 
 
 //denne funktion gør at der kommer en class på hver education
