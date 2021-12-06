@@ -14,12 +14,9 @@ export const dishFunction = async() => {
     wrapper.setAttribute('id', 'wrapper');
     wrapper.innerHTML = ''
 
-    //Opretter h2 med overskrift
-    const dishTitle = document.createElement('h2');
-    dishTitle.innerText = 'Ugens menu';
 
-    //Placere title 
-    divDish.append(dishTitle);
+
+
 
     //Henter dato fra vsCode-interface
     const date = new Date()
@@ -31,6 +28,10 @@ export const dishFunction = async() => {
 
     //Laver map
     jsonData && jsonData.Days.map((item) => {
+
+        //Opretter h2 med overskrift
+        const dishTitle = document.createElement('h2');
+        dishTitle.innerText = 'Ugens menu';
 
         //Opretter li
         const days = document.createElement('p');
@@ -50,6 +51,8 @@ export const dishFunction = async() => {
 
         divDish.innerHTML = ''
 
+        //Placere title 
+        divDish.append(dishTitle);
         //Placere li i ul og ul i div
         wrapper.append(days, dish);
         divDish.append(wrapper)

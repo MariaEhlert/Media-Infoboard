@@ -127,7 +127,7 @@ export const getActivityData = async () => {
 //Reloader hvert 5 sekund
 setInterval(() => {
     getActivityData();
-}, (5000000000))
+}, (5000))
 
 
 //denne funktion gør at der kommer en class på hver education
