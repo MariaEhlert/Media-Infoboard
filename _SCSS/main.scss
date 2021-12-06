@@ -234,7 +234,7 @@ body {
         border-collapse: collapse; //det her gør at der ikke er hul imellem linjerne
         tbody {
             height: 95vh;
-            color: rgba(0, 0, 0, 0.575);
+            color: #555;
 
             tr {
                 border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -267,7 +267,8 @@ body {
                     text-align: left;
                     text-transform: uppercase;
                     font-size: 2.2vw;
-                    color: rgba(0, 0, 0, 0.637);
+                    color: #555;
+                    
                 }
                 td {
                     // indhold
@@ -326,8 +327,8 @@ body {
     display: flex;
     padding: 5px 0px;
     height: 3vh;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.603);
+    width: 100%;    
+    background-color: #555555e6;
     color: #fff;
     align-items: center;
     position: fixed;
