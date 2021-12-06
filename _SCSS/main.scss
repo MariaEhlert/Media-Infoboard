@@ -275,9 +275,6 @@ body {
                     padding-bottom: 0.35vw;
                     padding-right: 4.5vw;
                     height: 4.8vh;
-                    // td:last-child{   
-                    //     border-bottom: 0;
-                    // } 
                 }
                 .capitalize {
                     text-transform: capitalize; //vi har givet alle fag en class
@@ -290,6 +287,10 @@ body {
             #nextDay{
                 font-weight: 700;
                 text-transform: capitalize;
+                letter-spacing: 5px;
+                td{
+                    padding: 0;
+                }
             }
         }
         .dot {
