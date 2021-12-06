@@ -1,24 +1,24 @@
 {
-    "Week": 47,
+    "Week": 48,
     "Days": [{
             "DayName": "mandag",
-            "Dish": "Kyllingebryst med bulgur og BBQ sauce"
+            "Dish": "Skinke med rosmarin  og selleri"
         },
         {
             "DayName": "tirsdag",
-            "Dish": "Svinefilet med bouillonkartofler og skysauce"
+            "Dish": "Kyllingespyd med bulgur"
         },
         {
             "DayName": "onsdag",
-            "Dish": "Dagens suppe"
+            "Dish": "Kotelet med skysauce og kartofler"
         },
         {
             "DayName": "torsdag",
-            "Dish": "Lasagne med salat"
+            "Dish": "Kyllingelår med ris og karrysauce"
         },
         {
             "DayName": "fredag",
-            "Dish": "Pølser med brød"
+            "Dish": "Pasta bolognese"
         }
     ],
     "PictureUrl": "https://infoskaerm.techcollege.dk/media/1304/shutterstock_67567321.jpg",
