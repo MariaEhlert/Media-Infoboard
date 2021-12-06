@@ -1,4 +1,4 @@
-# Media-Infoborad
+# Media-Infoboard
 
 Sektion 1		Design, ur, vejr og nyheder
 <br>Patrik, Philip
