@@ -1,4 +1,4 @@
-import { myFetch } from "../helpers.js";
+import { capitalizeFirstLetter, myFetch } from "../helpers.js";
 
 const root = document.querySelector('#activityData')
 
@@ -17,7 +17,7 @@ export const getActivityData = async () => {
     // Beregner antal sekunder siden sidste update
     let seconds_to_update = Math.round((curdate.getTime() - update.getTime()) / 1000);
 
-    if (data || seconds_to_update > config.max_seconds_to_last_update) {
+    if (!data || seconds_to_update > config.max_seconds_to_last_update) {
         const url = 'https://iws.itcn.dk/techcollege/Schedules?departmentCode=smed';
         const result = await myFetch(url);
         data = result.value;
@@ -42,10 +42,10 @@ export const getActivityData = async () => {
             });
             // Udskifter tekniske betegnelser med læsevenlige i Subject og Education
             arr_friendly_names.map(word => {
-                if (word.name === item.Education) {
+                if (word.name.toUpperCase() === item.Education.toUpperCase()) {
                     item.Education = word.friendly_name;
                 }
-                if (word.name === item.Subject) {
+                if (word.name.toUpperCase() === item.Subject.toUpperCase()) {
                     item.Subject = word.friendly_name;
                 }
             })
@@ -169,7 +169,7 @@ function createRow(item) {
         <td>${item.Time}</td>
         <td> <span class="dot ${addDotClass(item.Education)}"></span> ${item.Education}</td>
         <td>${item.Team}</td>
-        <td class="capitalize">${item.Subject}</td>
+        <td>${capitalizeFirstLetter(item.Subject)}</td>
         <td>${item.Room}</td>
         </tr>`
 }

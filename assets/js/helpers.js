@@ -114,3 +114,10 @@ export const dayDateMonth2local = strDate => {
     return `${day2local(date.getDay())} d. ${date.getDate()}. ${month2local(date.getMonth())}`;
 }
 
+
+//sætter kun første bogstav til stort bogstav
+export const capitalizeFirstLetter = (str) => {
+
+    return str.charAt(0).toUpperCase() + str.slice(1);
+
+};
