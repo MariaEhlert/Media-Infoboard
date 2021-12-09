@@ -46,6 +46,7 @@ body {
         font-size: .8vw;
         font-style: italic;
         opacity: 60%;
+        margin-bottom: 2vw;
     }
     //Den global P
     p {
@@ -146,8 +147,8 @@ body {
         background-image: url("../images/content/weather/rainV2.jpg");
         h2,
         p {
-            color: rgb(0, 0, 0);
-            text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.5);
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 10px 10px rgba(0, 0, 0, 0.5);
         }
     }
     &.snow {
@@ -363,6 +364,7 @@ $max) {
     box-shadow: 0 0 10px white;
     $total: 200;
     position: absolute;
+    top: 0;
     width: 1vw;
     height: 1vw;
     background: white;
