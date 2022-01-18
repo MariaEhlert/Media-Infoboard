@@ -1,7 +1,7 @@
 import { myFetch } from "../helpers.js";
 
 
-export const busFunction = async() => {
+export const busFunction = async () => {
 
     let busdiv = document.getElementById('bus')
     let bustimewrapper = document.createElement('div')
@@ -43,11 +43,12 @@ export const busFunction = async() => {
         //timeformat without seconds
         const time_format = `${hours}:${minutes}:00`
 
-        const today_format = `${year}/${month}/${day}`
+        //SKAL VÆRE +1 fordi den viser én mindre end den reelle md
+        const today_format = `${year}/${month + 1}/${day}`
 
 
         //maps out properties of departures and creates p for each entry
-        departures.map(dep => {
+        departures?.map(dep => {
 
             let numberP = document.createElement('p')
             let timeP = document.createElement('p')
@@ -68,12 +69,12 @@ export const busFunction = async() => {
 
             //grabs minutes from todayTime and divides it with diff_seconds, within the range of 60
             const minutes = Math.floor(diff_seconds / 60) % 60
-
             //difference becomes outcome of difference between diff_seconds and minutes
 
             let difference = `${hours} t & ${minutes} min`
+
             //changes difference to only display minutes if hour is 0
-            if(hours === 0){
+            if (hours === 0) {
                 difference = `${minutes} min`
             } else if (hours > 1) {
                 difference = `${hours} t & ${minutes} min`
