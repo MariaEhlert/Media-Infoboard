@@ -71,13 +71,13 @@ export const busFunction = async () => {
             const minutes = Math.floor(diff_seconds / 60) % 60
             //difference becomes outcome of difference between diff_seconds and minutes
 
-            let difference = `${hours} t & ${minutes} min`
+            let difference = `${hours} t ${minutes}min`
 
             //changes difference to only display minutes if hour is 0
             if (hours === 0) {
                 difference = `${minutes} min`
             } else if (hours > 1) {
-                difference = `${hours} t & ${minutes} min`
+                difference = `${hours} t ${minutes} min`
             }
 
 
