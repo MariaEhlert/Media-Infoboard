@@ -72,20 +72,20 @@ export const weatherFunction = async () => {
 
 
 
-
-
-
-
-
-  for (let i = 0; i < 200; i++) {
+//  Const'anter til at finde måneden vi er i
+  const date = new Date()
+  const month = date.getMonth()
+// En "if condetion" til kigge på om det er "december = 12", som aktiver sneflukerne kun i december 
+  if (month === 13 - 1) {
+    for (let i = 0; i < 200; i++) {
       // Laver en const, som laver et p i mit DOM
-  const snowFlake = document.createElement("div");
+      const snowFlake = document.createElement("div");
 
-  snowFlake.className=('snowFlake')
-  const leftSide=document.querySelector("#leftSide")
-  leftSide.prepend(snowFlake);
+      snowFlake.className = ('snowFlake')
+      const leftSide = document.querySelector("#leftSide")
+      leftSide.prepend(snowFlake);
+    }
   }
-
 
 
 }

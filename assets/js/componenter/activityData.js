@@ -31,6 +31,7 @@ export const getActivityData = async () => {
 
         // Filtrerer data for uønskede uddannelser fra JSON fil 
         data = data.filter(elm => config.array_valid_educations.includes(elm.Education));
+        data = data.filter(elm => !config.array_invalid_teams.includes(elm.Team));
 
         data.map(item => {
             //Sætter den rigtige tidzone da API'et er en time bagud 
@@ -52,6 +53,7 @@ export const getActivityData = async () => {
             })
             // Sætter property Stamp til aktivitetens tid i antal sekunder
             item.Stamp = Math.round(new Date(item.StartDate).getTime() / 1000);
+            console.log(item);
         })
 
         //denne sorterer sådan at startdate og education begge tages i betragtning
