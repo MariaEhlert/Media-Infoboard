@@ -1,25 +1,26 @@
 import { capitalizeFirstLetter, myFetch } from "../helpers.js";
-
 const root = document.querySelector('#activityData')
 
 export const getActivityData = async () => {
     // Henter config settings
     const config = await myFetch('./config.json');
-
+    
     let data = JSON.parse(localStorage.getItem('activity_data'));
     let update = new Date(localStorage.getItem('activity_update'));
-
+    
     // Henter dags dato + næste dag i sekunder
     let curdate = new Date();
     let cur_stamp = Math.round(curdate.getTime() / 1000);
     let nextday_stamp = Math.round(curdate.setHours(0, 0, 0, 0) / 1000) + 86400;
-
+    
     // Beregner antal sekunder siden sidste update
     let seconds_to_update = Math.round((curdate.getTime() - update.getTime()) / 1000);
-
+    
+    
     if (!data || seconds_to_update > config.max_seconds_to_last_update) {
         const url = 'https://iws.itcn.dk/techcollege/Schedules?departmentCode=smed';
         const result = await myFetch(url);
+        //console.log(result);
         data = result.value;
 
         // Henter friendly names på emner
@@ -124,10 +125,11 @@ export const getActivityData = async () => {
 
 
 }
+
 //Reloader hvert 5 sekund
 setInterval(() => {
     getActivityData();
-}, (5000))
+}, (500000))
 
 
 //denne funktion gør at der kommer en class på hver education
