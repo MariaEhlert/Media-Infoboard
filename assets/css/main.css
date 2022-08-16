@@ -5,17 +5,22 @@
   list-style: none;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+h1{
+  text-align: center; 
+  padding-top: 40vh;
+}
 
 body {
-  background-color: rgba(238, 238, 238, 0.5);
+  /* background-color: rgba(238, 238, 238, 0.5); */
+  background-color: #cc99ff;
   overflow-y: hidden;
   /* Hide vertical scrollbar */
   overflow-x: hidden;
   /* Hide horizontal scrollbar */
-  display: -ms-grid;
+  /* display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto 75%;
-      grid-template-columns: auto 75%;
+      grid-template-columns: auto 75%; */
 }
 
 body h2 {
