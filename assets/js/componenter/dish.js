@@ -31,8 +31,7 @@ export const dishFunction = async() => {
 
         //Opretter h2 med overskrift
         const dishTitle = document.createElement('h2');
-        dishTitle.innerText = 'TILLYKKE HEINZ';
-        dishTitle.style.color = 'red';
+        dishTitle.innerText = 'Ugens menu';
 
         //Opretter li
         const days = document.createElement('p');
