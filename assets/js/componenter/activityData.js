@@ -20,7 +20,7 @@ export const getActivityData = async () => {
     if (!data || seconds_to_update > config.max_seconds_to_last_update) {
         const url = 'https://iws.itcn.dk/techcollege/Schedules?departmentCode=smed';
         const result = await myFetch(url);
-        //console.log(result);
+        // console.log(result);
         data = result.value;
 
         // Henter friendly names på emner
